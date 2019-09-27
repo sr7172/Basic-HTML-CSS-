@@ -1,0 +1,97 @@
+* {
+		margin: 0;
+		padding: 2; /* changed the padding because this suites better on the page */
+		}
+
+html {
+		font-size: 100%;
+		}
+
+/** Added selector to make specific changes in color and font to headers*/
+h2   {
+        font: italic small-caps bold 25px cursive;/* change the font-style of the navigators to cursive */
+        color:beige;
+        }
+
+/** Added selector to make specific changes in color and font to headers*/
+h3   {
+        font: italic small-caps bold 25px cursive;/* change the font-style of the navigators to cursive */
+        color:beige;
+        }
+
+body {
+		font: 80%/1.5 Times, Times New Roman, Georgia, serif; /* changed font to Times New Roman */
+		background: #ff00ff; /* changed back-groung color to a brighter color */
+        padding-bottom: 2em;
+		}
+
+p {
+		font: 2em/1.4 Times, Times New Roman, Georgia, serif;
+		margin-bottom: 1em;
+		}
+
+#wrapper {
+		width: 900px;/* changed the width for better visualization*/
+		margin: 0 auto;
+		background: #008080;/* changed to more suited color combination */
+		}
+
+#profimage {
+		float: right;
+		margin-left: 40px;
+		margin-right: 40px; /* changed the margin width for better adjustment of the image*/
+	}
+
+#content {
+		font: 1.3em/1.4 Times, Times New Roman, Georgia, serif; /*changed the font to Times New Roman*/
+		padding: 15px 15px 15px;
+		border-right: 1px solid #898989;
+		border-bottom: 1px solid #898989;
+		border-left: 1px solid #898989;
+		}
+
+#navContainer {
+		font: italic small-caps bold 20px cursive;/* change the font-style of the navigators to cursive */
+		text-align: center;
+		padding: 50px 0 0;
+		border-bottom: 1px solid #909090;
+		background: #F08080;/* changed the navigating container's background to light coral color*/
+		}
+
+#navigation ul {
+		padding: 5px 0 5px; /* changed the padding because this looks even to me*/
+		}
+
+#navigation li {
+		display: inline;
+		}
+
+#navigation a:link, #navigation a:visited {
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #000000;
+		background: #ffffaa;/*changed color to make it look better and bright*/
+		border: 1px solid #000000;
+		padding: 5px 10px;
+		position: relative;
+		margin-right: 5px;
+		}
+
+
+#navigation a:visited {
+		color: #222222;
+		}
+
+#navigation a:hover {
+		text-decoration: underline blue; /* changed the text-decoration underline to colr blue */
+		background: #00FF00;/* changed the background of the navigators for better visual*/
+		}
+
+#homePage #homePageLink a:link, #homePage #homePageLink a:visited, #Class1Page #Class1PageLink a:link, #Class1Page #Class1PageLink a:visited, #Class2Page #Class2PageLink a:link, #Class2Page #Class2PageLink a:visited {
+		background: #ffffaa;
+		border-bottom-color: #ffffaa;
+		}
+
+li {
+    margin-left: 20px;
+   }
